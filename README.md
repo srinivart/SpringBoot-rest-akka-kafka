@@ -4,7 +4,7 @@
 
 Local Installation
 --------------
-dd /Users/srinivaspanaganti/Music/Servers/kafka_2.13-2.8.0/bin
+cd /Users/srinivaspanaganti/Music/Servers/kafka_2.13-2.8.0/bin
 
 
 
