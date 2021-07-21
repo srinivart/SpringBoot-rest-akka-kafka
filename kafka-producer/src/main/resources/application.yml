@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    client-id: srinivart-kafka-producer
+    #    For azure event-hub
+    #properties:
+      #sasl.jaas.config: your-sasl-config
+      #sasl.mechanism: PLAIN
+      #security.protocol: SASL_SSL
+    template:
+      default-topic: mytopic
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#      properties:
+#        partitioner:
+#          class: org.apache.kafka.clients.producer.RoundRobinPartitioner
